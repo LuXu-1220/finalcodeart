@@ -9,15 +9,16 @@ body
     height:100%;
     overflow: hidden;
 }
-
 h1{
   color:#F569BC;
   text-align: center;
+  cursor:url('../images/hammer1.png'),auto;
 }
 #whackTable td
 {
     width:31.7%;
     height:120px;
+    cursor:url('../images/hammer1.png'),auto;
   }
 #whackDiv
 {
@@ -25,6 +26,7 @@ h1{
     width:100%;
     overflow: hidden;
     position:fixed;
+    cursor:url('../images/hammer1.png'),auto;
 }
 
 #startButton
@@ -35,7 +37,7 @@ h1{
     top:50%;
     width:30%;
     height:15%;
-    cursor:url('../images/hammer1.png');
+    cursor:url('../images/hammer1.png'),auto;
     background-color: #F9FFC2;
     font-size: 20px;
     font-weight: bolder;
