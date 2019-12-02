@@ -1,7 +1,14 @@
 body{
   background-color: #B4EB79;
-  font-family: 'Dancing Script', cursive;
-  background-image: url("/images/game.png");
   background-repeat:no-repeat;
-  text-align: center;
 }
+
+h1{
+  font-size: 20px;
+  text-align: center;
+  color: orange;
+  background-color:#D0EDAD;
+}
+h1:hover{
+ color:#712CF5;
+ background-color: #EAC2E2;

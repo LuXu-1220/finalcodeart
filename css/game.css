@@ -1,0 +1,43 @@
+body
+{
+    background-color: #A7F5B0;
+    background-image: url('../images/grass.png');
+    cursor:url('../images/hammer.png');
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+h1{
+color:#F569BC;
+  text-align: center;
+
+}
+#whackTable td
+{
+    width:31.7%;
+    height:120px;
+  }
+#whackDiv
+{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    position:fixed;
+}
+
+#startButton
+{
+    transform: translate(-50%,-50%);
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:30%;
+    height:15%;
+    cursor:url('../images/hammer.gif');
+    background-color: #F9FFC2;
+    font-size: 20px;
+    font-weight: bolder;
+}
