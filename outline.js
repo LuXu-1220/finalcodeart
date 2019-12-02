@@ -4,7 +4,7 @@ $(document).ready(function()
     makeCorrectSize();
 
 
-    var music = new Audio('audio/Mii Channel Music.mp3');
+    var music = new Audio('audio/swag.mp3');
 
 
     var score = 0;
