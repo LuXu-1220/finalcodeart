@@ -1,6 +1,7 @@
 body{
   background-color: #B4EB79;
   background-repeat:no-repeat;
+  cursor: url('/images/hammer.png')auto;
 }
 
 h1{
