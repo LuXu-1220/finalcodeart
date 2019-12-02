@@ -36,15 +36,15 @@ $(document).ready(function()
     function preloadMoles()
     {
 
-        var imageObject = '<img src = "images/moleInHole.gif">';
+        var imageObject = '<img src = "images/hole.png">';
 
         whackImages.push(imageObject);
 
-        imageObject = '<img src = "images/moleOutHole.gif">';
+        imageObject = '<img src = "images/mole.png">';
 
         whackImages.push(imageObject);
 
-        imageObject = '<img src = "images/moleHurt.gif">';
+        imageObject = '<img src = "images/hole.png">';
 
         whackImages.push(imageObject);
 
