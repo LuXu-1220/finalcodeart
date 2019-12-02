@@ -2,7 +2,7 @@ body
 {
     background-color: #A7F5B0;
     background-image: url('../images/grass.png');
-    cursor:url('../images/hammer.png')auto;
+    cursor:url('../images/hammer1.png'),auto;
     margin: 0;
     padding: 0;
     width:100%;
@@ -11,9 +11,8 @@ body
 }
 
 h1{
-color:#F569BC;
+  color:#F569BC;
   text-align: center;
-
 }
 #whackTable td
 {
@@ -36,7 +35,7 @@ color:#F569BC;
     top:50%;
     width:30%;
     height:15%;
-    cursor:url('../images/hammer.png');
+    cursor:url('../images/hammer1.png');
     background-color: #F9FFC2;
     font-size: 20px;
     font-weight: bolder;
