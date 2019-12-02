@@ -1,9 +1,15 @@
 $(document).ready(function()
 {
+    //CSS changes to page:
     makeCorrectSize();
 
+    //Plays music on load:
     var music = new Audio('audio/Mii Channel Music.mp3');
 
+    //alert(screen.width + "+"+ screen.height);
+
+    //Starts whack sound
+    //var whackSound = new Audio('audio/Whack Sound Effect.mp3');
 
     var score = 0;
     $("#score").text("Score: " + score );
@@ -35,16 +41,17 @@ $(document).ready(function()
 
     function preloadMoles()
     {
+        //Reads the 3 states of whack mole images: in hole, out of hole, whacked
 
-        var imageObject = '<img src = "images/hole.png">';
-
-        whackImages.push(imageObject);
-
-        imageObject = '<img src = "images/mole.png">';
+        var imageObject = '<img src = "images/moleInHole.gif">';
 
         whackImages.push(imageObject);
 
-        imageObject = '<img src = "images/hole.png">';
+        imageObject = '<img src = "images/moleOutHole.gif">';
+
+        whackImages.push(imageObject);
+
+        imageObject = '<img src = "images/moleHurt.gif">';
 
         whackImages.push(imageObject);
 
@@ -103,6 +110,7 @@ $(document).ready(function()
         var location = $(this).attr('id');
         if (moleStateMap[location])
         {
+            //whackSound.play();
             recentlyWhacked = location;
             moleStateMap[location] = false;
             displayMoles();
@@ -131,6 +139,7 @@ $(document).ready(function()
 
     $("#startButton").on("click",function()
     {
+        //Starts the game
         $(this).css({"visibility":"hidden"});
         timer = 60;
         music.play();
@@ -138,9 +147,18 @@ $(document).ready(function()
 
     function resetGame()
     {
+        //alert("Game over! Your score was: " + score);
         $("#startButton").css({"visibility":"visible"});
         score = 0;
     }
+
+    /*$(window).resize(function()
+    {
+        //$("whackDiv").css({"height":$(window).height()});
+       // $("whackDiv").css({"width":$(window).width()});
+       //window.resizeTo(screen.width,screen.height);
+
+    });*/
 
     function makeCorrectSize()
     {
