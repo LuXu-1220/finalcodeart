@@ -43,15 +43,15 @@ $(document).ready(function()
     {
         //Reads the 3 states of whack mole images: in hole, out of hole, whacked
 
-        var imageObject = '<img src = "images/moleInHole.gif">';
+        var imageObject = '<img src = "images/hole.png">';
 
         whackImages.push(imageObject);
 
-        imageObject = '<img src = "images/moleOutHole.gif">';
+        imageObject = '<img src = "images/mole.png">';
 
         whackImages.push(imageObject);
 
-        imageObject = '<img src = "images/moleHurt.gif">';
+        imageObject = '<img src = "images/hole.png">';
 
         whackImages.push(imageObject);
 
