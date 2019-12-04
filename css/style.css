@@ -1,7 +1,7 @@
 body{
   background-color: #B4EB79;
   background-repeat:no-repeat;
-  cursor: url('/images/hammer.png')auto;
+  cursor:url('../images/hand.png'),auto;
 }
 
 h1{
@@ -9,7 +9,14 @@ h1{
   text-align: center;
   color: orange;
   background-color:#D0EDAD;
+  cursor:url('../images/hand.png'),auto;
 }
 h1:hover{
- color:#712CF5;
- background-color: #EAC2E2;
+   color:#712CF5;
+   background-color: #EAC2E2;
+   cursor:url('../images/hand.png'),auto;
+}
+
+a{
+  cursor:url('../images/hand.png'),auto;
+}
