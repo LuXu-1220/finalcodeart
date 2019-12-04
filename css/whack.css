@@ -1,0 +1,22 @@
+body
+{
+    background-color: #A7F5B0;
+    background-image: url('../images/whack.gif');
+    background-size: 50%;
+    background-repeat: repeat;
+    cursor:url('../images/hammer1.png'),auto;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+h1{
+   color: #AA0AFF;
+   font-size: 90px;
+   text-align: center;
+   padding-top: 20%;
+}
+h1:hover{
+  color:#09F500;
+}
