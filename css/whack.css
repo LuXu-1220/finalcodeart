@@ -4,7 +4,7 @@ body
     background-image: url('../images/whack.gif');
     background-size: 50%;
     background-repeat: repeat;
-    cursor:url('../images/hammer1.png'),auto;
+    cursor:url('../images/smile.png'),auto;
     margin: 0;
     padding: 0;
     width:100%;
@@ -19,4 +19,5 @@ h1{
 }
 h1:hover{
   color:#09F500;
+  cursor:url('../images/sad.png'),auto;
 }
